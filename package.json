@@ -1,5 +1,8 @@
 {
-  "name": "metrageui",
+  "name": "@zainkovskiy/metrageui",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/zainkovskiy"
+  },
   "version": "0.0.1",
   "description": "UI for Metrage-CRM",
   "scripts": {
@@ -24,6 +27,7 @@
   ],
   "types": "dist/index.d.ts",
   "dependencies": {
+    "styled-components": "^6.0.4",
     "tslib": "^2.6.0"
   }
 }
